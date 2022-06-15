@@ -1,0 +1,50 @@
+.hg {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hgItem {
+  flex: 1;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.hgImg {
+  width: 100%;
+}
+
+.hgTitle {
+  font-weight: bold;
+}
+
+.hgCity {
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.hgPrice {
+  font-weight: 500;
+}
+
+.hgRating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hgRating > button {
+  background-color: #003580;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hgRating > span {
+  font-size: 14px;
+  font-weight: 600;
+}
